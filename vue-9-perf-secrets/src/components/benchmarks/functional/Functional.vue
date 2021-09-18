@@ -63,6 +63,7 @@ export default {
   methods: {
     generate () {
       const data = []
+      /* 📚 学习点：往数组push内容之前，先用一个数据变量接受，然后一次性调用数组的push，防止因为vue的响应式而多次触发watch、diff与vnode渲染 */
       for (let i = 0; i < this.count; i++) {
         data.push(Math.random() < 0.5)
       }
