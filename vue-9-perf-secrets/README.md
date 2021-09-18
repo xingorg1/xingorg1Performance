@@ -2,6 +2,10 @@
 
 [Slides](https://slides.com/akryum/vueconfus-2019)
 
+## 搭配文章：
+https://juejin.cn/post/6922641008106668045
+
+
 ## Project setup
 ```
 yarn install

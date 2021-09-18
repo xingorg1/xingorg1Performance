@@ -2,6 +2,14 @@
   "name": "vueconfus-perf-secrets",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akryum/vue-9-perf-secrets.git"
+  },
+  "homepage": "https://vue-9-perf-secrets.netlify.app/",
+  "author": {
+    "name": "Akryum"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
